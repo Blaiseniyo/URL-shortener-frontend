@@ -49,7 +49,7 @@ const URLTable: React.FC<URLTableProps> = ({ links = [], isLoading = false }) =>
     if (link.shortened_url) {
       return link.shortened_url;
     }
-    const baseUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001';
+    const baseUrl = `${import.meta.env.VITE_BACKEND_URL}/l` || 'http://localhost:3001/l';
     return `${baseUrl}/${link.short_code}`;
   };
 

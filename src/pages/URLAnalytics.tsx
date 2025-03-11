@@ -106,7 +106,7 @@ const URLAnalytics: React.FC = () => {
     );
   }
 
-  const shortUrl = `${baseUrl}/${urlData.short_code}`;
+  const shortUrl = `${baseUrl}/l/${urlData.short_code}`;
 
   return (
     <DashboardLayout>
