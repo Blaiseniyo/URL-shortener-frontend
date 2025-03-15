@@ -35,8 +35,8 @@ A modern URL shortening service built with React, TypeScript, and Tailwind CSS, 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/url-shortener.git
-cd url-shortener/Frontend/URLsShortener
+git clone https://github.com/Blaiseniyo/URL-shortener-frontend.git
+cd /URL-shortener-frontend.git
 ```
 
 2. **Install dependencies**
